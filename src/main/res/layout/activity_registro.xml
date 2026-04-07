@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@color/Background_principal"
+    tools:context=".Inicio.RegistroActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGISTRO"
+        android:layout_marginTop="40dp"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textColor="@color/naranja"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="50dp"
+            android:padding="25dp"
+            android:gravity="center">
+
+    <EditText
+        android:id="@+id/etNombres"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/style_edit_text"
+        android:hint="Nombres"
+        android:paddingStart="15dp"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/Color_Letra"/>
+
+
+    <EditText
+        android:id="@+id/etApellidos"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/style_edit_text"
+        android:hint="Apellidos"
+        android:paddingStart="15dp"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/Color_Letra"/>
+
+
+    <EditText
+        android:id="@+id/etCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/style_edit_text"
+        android:hint="Correo Electrónico"
+        android:paddingStart="15dp"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/Color_Letra"/>
+
+
+    <EditText
+        android:id="@+id/etContrasena"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/style_edit_text"
+        android:hint="Contraseña"
+        android:paddingStart="15dp"
+        android:inputType="textPassword"
+        android:textColorHint="@color/Color_Letra"/>
+
+
+    <EditText
+        android:id="@+id/etRepetirContrasena"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/style_edit_text"
+        android:hint="Repite tu contraseña"
+        android:paddingStart="15dp"
+        android:inputType="textPassword"
+        android:textColorHint="@color/Color_Letra"/>
+
+
+    <Button
+        android:id="@+id/btnRegistrarse"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/naranja"
+        android:text="Registrarse"
+        android:textAllCaps="false"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        app:cornerRadius="30dp"
+        app:strokeColor="@color/white"
+        app:strokeWidth="4dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:text="¿Ya tienes una cuenta?"
+                android:textColor="@color/Color_Letra"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

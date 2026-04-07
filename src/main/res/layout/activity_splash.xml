@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/Background_principal"
+    tools:context=".Inicio.SplashActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="308dp"
+        android:layout_height="308dp"
+        app:srcCompat="@mipmap/ic_launcher_foreground" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="350dp"
+        android:layout_height="52dp"
+        android:text="@string/Empresa"
+        android:layout_marginTop="50sp"
+        android:textColor="@color/Color_Letra"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/logo_splash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fabian_viveros"
+        android:layout_marginLeft="100sp"
+        android:layout_marginTop="200sp"
+        android:textColor="@color/Color_Letra"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/nav_Pedidos"
+    android:title="@string/pedidos"
+    android:icon="@drawable/pedido"/>
+
+    <item
+        android:id="@+id/nav_notificaciones"
+        android:title="@string/notificaciones"
+        android:icon="@drawable/alerta"/>
+
+    <item
+        android:id="@+id/pago"
+        android:title="@string/pago"
+        android:icon="@drawable/card"/>
+
+    <item
+        android:id="@+id/nav_sesion"
+        android:title="@string/sesion"
+        android:icon="@drawable/sesion"/>
+
+</menu>
