@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tienda</string>
+    <string name="Bienvenida">Hola como estas, te sientes bien</string>
+    <string name="nombre">Nombre</string>
+    <string name="siguiente">SIGUIENTE</string>
+    <string name="fabian_viveros">Fabian Viveros</string>
+    <string name="Empresa">CompuMundoHiperMegaRed</string>
+    <string name="aventura">Inicia una nueva aventura con CompuMundoHiperMegaRed y descubre una nueva forma de ver el Mundo</string>
+    <string name="registrate">Registrate</string>
+    <string name="mi_tienda">Mi Tienda</string>
+    <string name="inicio">Inicio</string>
+    <string name="catalogo">Catalogo</string>
+    <string name="carrito">Carrito</string>
+    <string name="favoritos">Favoritos</string>
+    <string name="pedidos">Pedidos</string>
+    <string name="notificaciones">Notificaciones</string>
+    <string name="pago">Pago</string>
+    <string name="sesion">Sesion</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigation_drawer_open">Menu Abierto</string>
+    <string name="navigation_drawer_close">Menu Cerrado</string>
+    <string name="productos_destacados">Productos Destacados</string>
+    <string name="imagen_del_producto">Imagen del producto</string>
+    <string name="agregar_al_carrito">Agregar al carrito\n</string>
+    <string name="registro">REGISTRO</string>
+    <string name="nombres">Nombres</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="repite_tu_contrase_a">Repite tu contraseña</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="ya_tienes_una_cuenta">¿Ya tienes una cuenta?</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="correo_electr_nico">Correo Electrónico</string>
+    <string name="terminos_y_condicione0s">Terminos y Condiciones</string>
+</resources>
