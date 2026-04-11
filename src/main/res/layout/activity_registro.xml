@@ -13,7 +13,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="REGISTRO"
+        android:text="@string/registro"
         android:layout_marginTop="40dp"
         android:textSize="35sp"
         android:textStyle="bold"
@@ -39,10 +39,11 @@
         android:layout_height="55dp"
         android:layout_marginTop="40dp"
         android:background="@drawable/style_edit_text"
-        android:hint="Nombres"
+        android:hint="@string/nombres"
         android:paddingStart="15dp"
         android:inputType="textPersonName"
-        android:textColorHint="@color/Color_Letra"/>
+        android:textColorHint="@color/Color_Letra"
+        tools:ignore="RtlSymmetry" />
 
 
     <EditText
@@ -51,8 +52,9 @@
         android:layout_height="55dp"
         android:layout_marginTop="15dp"
         android:background="@drawable/style_edit_text"
-        android:hint="Apellidos"
+        android:hint="@string/apellidos"
         android:paddingStart="15dp"
+        android:paddingEnd="15dp"
         android:inputType="textPersonName"
         android:textColorHint="@color/Color_Letra"/>
 
@@ -63,8 +65,9 @@
         android:layout_height="55dp"
         android:layout_marginTop="15dp"
         android:background="@drawable/style_edit_text"
-        android:hint="Correo Electrónico"
+        android:hint="@string/correo_electr_nico"
         android:paddingStart="15dp"
+        android:paddingEnd="15dp"
         android:inputType="textEmailAddress"
         android:textColorHint="@color/Color_Letra"/>
 
@@ -75,8 +78,9 @@
         android:layout_height="55dp"
         android:layout_marginTop="15dp"
         android:background="@drawable/style_edit_text"
-        android:hint="Contraseña"
+        android:hint="@string/contrase_a"
         android:paddingStart="15dp"
+        android:paddingEnd="15dp"
         android:inputType="textPassword"
         android:textColorHint="@color/Color_Letra"/>
 
@@ -87,19 +91,29 @@
         android:layout_height="55dp"
         android:layout_marginTop="15dp"
         android:background="@drawable/style_edit_text"
-        android:hint="Repite tu contraseña"
+        android:hint="@string/repite_tu_contrase_a"
         android:paddingStart="15dp"
+        android:paddingEnd="15dp"
         android:inputType="textPassword"
         android:textColorHint="@color/Color_Letra"/>
 
+     <CheckBox
+         android:id="@+id/checkTerminos"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="15dp"
+         android:text="@string/terminos_y_condicione0s"
+         android:textColor="@color/Color_Letra"
+         android:textSize="18sp"
+         android:textStyle="bold"/>
 
     <Button
         android:id="@+id/btnRegistrarse"
         android:layout_width="280dp"
         android:layout_height="60dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="10dp"
         android:backgroundTint="@color/naranja"
-        android:text="Registrarse"
+        android:text="@string/registrarse"
         android:textAllCaps="false"
         android:textSize="22sp"
         android:textStyle="bold"
@@ -109,10 +123,11 @@
         app:strokeWidth="4dp"/>
 
             <TextView
+                android:id="@+id/tvYaTienesCuenta"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_marginTop="20dp"
-                android:text="¿Ya tienes una cuenta?"
+                android:layout_marginTop="5dp"
+                android:text="@string/ya_tienes_una_cuenta"
                 android:textColor="@color/Color_Letra"
                 android:textSize="18sp"
                 android:textStyle="bold"/>
