@@ -1,7 +1,6 @@
 package com.tienda
 
 import io.github.jan.supabase.createSupabaseClient
-import io.github.jan.supabase.aut.Auth
 import io.github.jan.supabase.auth.Auth
 import io.github.jan.supabase.postgrest.Postgrest
 

@@ -9,7 +9,7 @@
     android:orientation="vertical"
     android:background="@color/Background_principal"
     android:padding="16dp"
-    tools:context=".Inicio.LoginActivity">
+    tools:context=".ui.auth.LoginActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -29,6 +29,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/Empresa"
+            android:textColor="@color/Color_Letra"
             android:layout_marginStart="15dp"
             android:textSize="21sp"
             android:textStyle="bold" />
@@ -38,7 +39,8 @@
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="La Aventura Está por Iniciar\npor favor Inicia Sesión"
+        android:text="@string/la_aventura_est_por_iniciar_npor_favor_inicia_sesi_n"
+        android:textColor="@color/Color_Letra"
         android:layout_marginTop="20dp"
         android:textAlignment="center"
         android:textSize="18sp"
@@ -59,13 +61,15 @@
             app:srcCompat="@drawable/person" />
 
         <EditText
-            android:id="@+id/editTextText"
+            android:id="@+id/etCorreo"
             android:layout_width="250dp"
             android:layout_height="50dp"
             android:background="@drawable/style_edit_text"
-            android:hint="Nombre"
+            android:hint="@string/correo"
+            android:textColor="@color/Color_Letra"
             android:paddingStart="15dp"
-            android:inputType="text"
+            android:paddingEnd="15dp"
+            android:inputType="textEmailAddress"
             android:textColorHint="@color/Color_Letra"/>
     </LinearLayout>
 
@@ -84,11 +88,12 @@
             app:srcCompat="@drawable/key" />
 
         <EditText
-            android:id="@+id/editTextText2"
+            android:id="@+id/etContrasena"
             android:layout_width="250dp"
             android:layout_height="50dp"
             android:background="@drawable/style_edit_text"
-            android:hint="Contraseña"
+            android:hint="@string/contraseñas2"
+            android:textColor="@color/Color_Letra"
             android:inputType="textPassword"
             android:textColorHint="@color/Color_Letra"
             android:paddingStart="15dp"
@@ -96,23 +101,33 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnIngresar"
         android:layout_width="250dp"
         android:layout_height="60dp"
         android:layout_marginTop="80dp"
         android:backgroundTint="@color/naranja"
-        android:text="Ingresar"
+        android:text="@string/ingresar"
         android:textSize="24sp"
         android:textStyle="bold"
         app:strokeColor="@color/white"
         app:strokeWidth="4dp"/>
 
     <TextView
-        android:id="@+id/textView7"
+        android:id="@+id/ingresarHuella"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/ingreso_con_huella"
+        android:textAlignment="center"
+        android:textColor="@color/Color_Letra"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvRecuperarContrasena"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
-        android:text="Recupera tu Contraseña"
+        android:text="@string/recupera_tu_contrase_a"
         android:textStyle="bold" />
 
     <LinearLayout
@@ -122,11 +137,12 @@
         android:layout_marginTop="20dp">
 
         <TextView
-            android:text="No tienes cuenta? "
+            android:text="@string/no_tienes_cuenta"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
         <TextView
-            android:text="Regístrate"
+            android:id="@+id/tvRegistrate"
+            android:text="@string/reg_strate"
             android:textColor="@color/naranja"
             android:textStyle="bold"
             android:layout_width="wrap_content"
@@ -134,7 +150,7 @@
     </LinearLayout>
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/btnGoogle"
         android:layout_width="250dp"
         android:layout_height="50dp"
         android:layout_marginTop="20dp"

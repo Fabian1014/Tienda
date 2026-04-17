@@ -14,19 +14,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Tienda">
         <activity
-            android:name=".Inicio.SplashActivity"
+            android:name=".ui.Inicio.SplashActivity"
             android:exported="false" />
         <activity
-            android:name=".Inicio.RegistroActivity"
+            android:name=".ui.auth.RegistroActivity"
             android:exported="false" />
         <activity
-            android:name=".Inicio.LoginActivity"
+            android:name=".ui.main.MainActivity"
             android:exported="false" />
         <activity
-            android:name=".Inicio.InicioActivity"
+            android:name=".ui.Inicio.InicioActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.auth.LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

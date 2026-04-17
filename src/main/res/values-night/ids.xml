@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <item name="nav_perfil" type="id"/>
-    <item name="checkTerminos" type="id">Terminos</item>
-    <item name="tvYaTienesCuenta" type="id">ya_tienes_cuenta</item>
+    <item name="checkTerminos" type="id"/>
+    <item name="tvYaTienesCuenta" type="id"/>
 </resources>

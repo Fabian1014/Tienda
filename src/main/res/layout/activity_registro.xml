@@ -8,7 +8,7 @@
     android:gravity="center_horizontal"
     android:orientation="vertical"
     android:background="@color/Background_principal"
-    tools:context=".Inicio.RegistroActivity">
+    tools:context=".ui.auth.RegistroActivity">
 
     <TextView
         android:layout_width="wrap_content"
@@ -40,6 +40,7 @@
         android:layout_marginTop="40dp"
         android:background="@drawable/style_edit_text"
         android:hint="@string/nombres"
+        android:textColor="@color/Color_Letra"
         android:paddingStart="15dp"
         android:inputType="textPersonName"
         android:textColorHint="@color/Color_Letra"
@@ -53,6 +54,7 @@
         android:layout_marginTop="15dp"
         android:background="@drawable/style_edit_text"
         android:hint="@string/apellidos"
+        android:textColor="@color/Color_Letra"
         android:paddingStart="15dp"
         android:paddingEnd="15dp"
         android:inputType="textPersonName"
@@ -66,6 +68,7 @@
         android:layout_marginTop="15dp"
         android:background="@drawable/style_edit_text"
         android:hint="@string/correo_electr_nico"
+        android:textColor="@color/Color_Letra"
         android:paddingStart="15dp"
         android:paddingEnd="15dp"
         android:inputType="textEmailAddress"
@@ -79,6 +82,7 @@
         android:layout_marginTop="15dp"
         android:background="@drawable/style_edit_text"
         android:hint="@string/contrase_a"
+        android:textColor="@color/Color_Letra"
         android:paddingStart="15dp"
         android:paddingEnd="15dp"
         android:inputType="textPassword"
@@ -92,6 +96,7 @@
         android:layout_marginTop="15dp"
         android:background="@drawable/style_edit_text"
         android:hint="@string/repite_tu_contrase_a"
+        android:textColor="@color/Color_Letra"
         android:paddingStart="15dp"
         android:paddingEnd="15dp"
         android:inputType="textPassword"

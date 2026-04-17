@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/Background_principal"
+    tools:context=".ui.main.perfil.EditarPerfil">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="25dp"
+        android:layout_marginTop="55dp">
+
+        <TextView
+            android:id="@+id/tvTituloEditar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/editar_perfil"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/Color_Letra"
+            android:gravity="center"
+            android:layout_marginBottom="30dp"/>
+
+
+        <EditText
+            android:id="@+id/etNombres"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/style_edit_text"
+            android:hint="@string/nombres"
+            android:inputType="textPersonName"
+            android:paddingHorizontal="20dp"
+            android:layout_marginBottom="30dp"/>
+
+        <EditText
+            android:id="@+id/etApellidos"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/style_edit_text"
+            android:hint="@string/apellidos"
+            android:inputType="textPersonName"
+            android:paddingHorizontal="20dp"
+            android:layout_marginBottom="30dp"/>
+
+        <EditText
+            android:id="@+id/etCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/style_edit_text"
+            android:hint="@string/correo_electr_nico"
+            android:inputType="textEmailAddress"
+            android:paddingHorizontal="20dp"
+            android:layout_marginBottom="20dp"/>
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/style_edit_text"
+            android:hint="@string/contrase_a"
+            android:inputType="textPassword"
+            android:paddingHorizontal="20dp"
+            android:layout_marginBottom="30dp"/>
+
+        <EditText
+            android:id="@+id/etRePassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/style_edit_text"
+            android:hint="@string/repite_tu_contrase_a"
+            android:inputType="textPassword"
+            android:paddingHorizontal="20dp"
+            android:layout_marginBottom="30dp"/>
+
+        <Button
+            android:id="@+id/btnGuardarPerfil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/guardar_cambios"
+            android:backgroundTint="@color/naranja"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+</ScrollView>

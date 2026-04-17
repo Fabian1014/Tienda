@@ -32,4 +32,14 @@
     <string name="contrase_a">Contraseña</string>
     <string name="correo_electr_nico">Correo Electrónico</string>
     <string name="terminos_y_condicione0s">condiciones</string>
+    <string name="editar_perfil">Editar Perfil</string>
+    <string name="guardar_cambios">GUARDAR CAMBIOS</string>
+    <string name="la_aventura_est_por_iniciar_npor_favor_inicia_sesi_n">La Aventura Está por Iniciar\npor favor Inicia Sesión</string>
+    <string name="correo">Correo</string>
+    <string name="contraseñas2">Contraseña</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="recupera_tu_contrase_a">Recupera tu Contraseña</string>
+    <string name="no_tienes_cuenta">No tienes cuenta?</string>
+    <string name="reg_strate">Regístrate</string>
+    <string name="ingreso_con_huella">Ingreso con Huella</string>
 </resources>

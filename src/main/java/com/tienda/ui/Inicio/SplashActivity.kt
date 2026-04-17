@@ -1,4 +1,4 @@
-package com.tienda.Inicio
+package com.tienda.ui.Inicio
 
 import android.content.Intent
 import android.os.Bundle
