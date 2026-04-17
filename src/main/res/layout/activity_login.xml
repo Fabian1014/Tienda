@@ -29,7 +29,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/Empresa"
-            android:textColor="@color/Color_Letra"
             android:layout_marginStart="15dp"
             android:textSize="21sp"
             android:textStyle="bold" />
@@ -40,7 +39,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/la_aventura_est_por_iniciar_npor_favor_inicia_sesi_n"
-        android:textColor="@color/Color_Letra"
         android:layout_marginTop="20dp"
         android:textAlignment="center"
         android:textSize="18sp"
@@ -66,7 +64,6 @@
             android:layout_height="50dp"
             android:background="@drawable/style_edit_text"
             android:hint="@string/correo"
-            android:textColor="@color/Color_Letra"
             android:paddingStart="15dp"
             android:paddingEnd="15dp"
             android:inputType="textEmailAddress"
@@ -93,7 +90,6 @@
             android:layout_height="50dp"
             android:background="@drawable/style_edit_text"
             android:hint="@string/contraseñas2"
-            android:textColor="@color/Color_Letra"
             android:inputType="textPassword"
             android:textColorHint="@color/Color_Letra"
             android:paddingStart="15dp"
@@ -111,16 +107,6 @@
         android:textStyle="bold"
         app:strokeColor="@color/white"
         app:strokeWidth="4dp"/>
-
-    <TextView
-        android:id="@+id/ingresarHuella"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:text="@string/ingreso_con_huella"
-        android:textAlignment="center"
-        android:textColor="@color/Color_Letra"
-        android:textSize="16sp" />
 
     <TextView
         android:id="@+id/tvRecuperarContrasena"

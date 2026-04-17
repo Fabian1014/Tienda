@@ -55,5 +55,4 @@ dependencies {
     implementation(libs.google.id)
     implementation(libs.credential.manager)
     implementation(libs.credential.manager.play)
-    implementation(libs.biometric)
 }
