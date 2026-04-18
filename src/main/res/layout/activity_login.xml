@@ -65,7 +65,6 @@
             android:background="@drawable/style_edit_text"
             android:hint="@string/correo"
             android:paddingStart="15dp"
-            android:paddingEnd="15dp"
             android:inputType="textEmailAddress"
             android:textColorHint="@color/Color_Letra"/>
     </LinearLayout>
@@ -126,6 +125,7 @@
             android:text="@string/no_tienes_cuenta"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
+
         <TextView
             android:id="@+id/tvRegistrate"
             android:text="@string/reg_strate"
@@ -141,5 +141,15 @@
         android:layout_height="50dp"
         android:layout_marginTop="20dp"
         app:srcCompat="@drawable/google" />
+
+    <TextView
+        android:id="@+id/ingresarHuella"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/ingreso_con_huella"
+        android:textStyle="bold"
+        android:textColor="@color/naranja"
+        android:visibility="gone" />
 
 </LinearLayout>
