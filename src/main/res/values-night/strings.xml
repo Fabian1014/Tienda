@@ -41,4 +41,5 @@
     <string name="recupera_tu_contrase_a">Recupera tu Contraseña</string>
     <string name="no_tienes_cuenta">No tienes cuenta?</string>
     <string name="reg_strate">Regístrate</string>
+    <string name="ingreso_con_huella">Ingreso con huella</string>
 </resources>

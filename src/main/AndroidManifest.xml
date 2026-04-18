@@ -15,18 +15,18 @@
         android:theme="@style/Theme.Tienda">
         <activity
             android:name=".ui.Inicio.SplashActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.main.MainActivity"
             android:exported="false" />
         <activity
             android:name=".ui.auth.RegistroActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.auth.LoginActivity"
-            android:exported="false" />
-        <activity
             android:name=".ui.Inicio.InicioActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.main.MainActivity"
+            android:name=".ui.auth.LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
