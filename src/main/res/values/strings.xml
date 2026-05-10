@@ -42,4 +42,10 @@
     <string name="no_tienes_cuenta">No tienes cuenta?</string>
     <string name="reg_strate">Regístrate</string>
     <string name="ingreso_con_huella">Ingreso con huella</string>
+    <string name="administrar">administrar</string>
+    <string name="usuarios">usuarios</string>
+    <string name="perfil">Perfil</string>
+    <string name="cambiar_foto">cambio img</string>
+    <string name="editar">Editar Perfil</string>
+    <string name="perfill">Perfil</string>
 </resources>

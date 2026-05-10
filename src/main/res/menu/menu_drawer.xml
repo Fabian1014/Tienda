@@ -6,13 +6,13 @@
     android:icon="@drawable/pedido"/>
 
     <item
-        android:id="@+id/nav_notificaciones"
-        android:title="@string/notificaciones"
+        android:id="@+id/nav_administrar"
+        android:title="@string/administrar"
         android:icon="@drawable/alerta"/>
 
     <item
-        android:id="@+id/pago"
-        android:title="@string/pago"
+        android:id="@+id/nav_usuarios"
+        android:title="@string/usuarios"
         android:icon="@drawable/card"/>
 
     <item

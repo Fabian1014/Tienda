@@ -1,14 +1,116 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.main.perfil.PerfilFragment">
+    android:fillViewport="true"
+    android:background="@color/Background_principal"
+    tools:context=".ui.main.perfil.EditarPerfil">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="PERFIL" />
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="25dp"
+        android:layout_marginTop="55dp">
 
-</FrameLayout>
+        <TextView
+            android:id="@+id/tvTituloEditar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/perfil"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/Color_Letra"
+            android:gravity="center"
+            android:layout_marginBottom="30dp"/>
+
+        <RelativeLayout
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp">
+
+            <ImageView
+                android:id="@+id/imgFotoPerfil"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/perfil"
+                android:clipToOutline="true"/>
+
+            <ImageButton
+                android:id="@+id/btnCambiarFoto"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:backgroundTint="@color/naranja"
+                android:src="@drawable/camara"
+                android:contentDescription="@string/cambiar_foto"
+                android:padding="6dp" />
+        </RelativeLayout>
+
+
+        <EditText
+            android:id="@+id/etNombres"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/style_edit_text"
+            android:hint="@string/nombres"
+            android:inputType="textPersonName"
+            android:paddingHorizontal="20dp"
+            android:layout_marginBottom="30dp"/>
+
+        <EditText
+            android:id="@+id/etApellidos"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/style_edit_text"
+            android:hint="@string/apellidos"
+            android:inputType="textPersonName"
+            android:paddingHorizontal="20dp"
+            android:layout_marginBottom="30dp"/>
+
+        <EditText
+            android:id="@+id/etCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/style_edit_text"
+            android:hint="@string/correo_electr_nico"
+            android:inputType="textEmailAddress"
+            android:paddingHorizontal="20dp"
+            android:layout_marginBottom="20dp"/>
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/style_edit_text"
+            android:hint="@string/contrase_a"
+            android:inputType="textPassword"
+            android:paddingHorizontal="20dp"
+            android:layout_marginBottom="30dp"/>
+
+        <EditText
+            android:id="@+id/etRePassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/style_edit_text"
+            android:hint="@string/repite_tu_contrase_a"
+            android:inputType="textPassword"
+            android:paddingHorizontal="20dp"
+            android:layout_marginBottom="30dp"/>
+
+        <Button
+            android:id="@+id/btnGuardarPerfil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/editar"
+            android:backgroundTint="@color/naranja"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -45,6 +45,7 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    implementation("com.github.bumptech.glide:glide:4.16.0")
 
     implementation(platform(libs.supabase.bom))
     implementation(libs.supabase.postgrest)
@@ -55,4 +56,7 @@ dependencies {
     implementation(libs.google.id)
     implementation(libs.credential.manager)
     implementation(libs.credential.manager.play)
+
+    implementation(libs.coil)
+    implementation(libs.supabase.storage)
 }
